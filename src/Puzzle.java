@@ -17,6 +17,18 @@ public class Puzzle {
                System.out.print("a ");
                System.out.print("noise");
            }
+           if (x < 4){
+               System.out.print("n");
+               System.out.print("oise");
+           }
+           if (x == 1){
+               System.out.print("annoys");
+           }
+           if (x > 1){
+               System.out.print("n");
+               System.out.print("oise");
+           }
+           System.out.println("");
            x = x + 1;
         }
     }
