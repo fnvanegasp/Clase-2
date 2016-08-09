@@ -17,17 +17,17 @@ public class Puzzle {
                System.out.print("a ");
                System.out.print("noise");
            }
-           if (x < 4){
+           if (x > 3){
                System.out.print("n");
                System.out.print("oise");
            }
            if (x == 1){
                System.out.print("annoys");
            }
-           if (x > 1){
-               System.out.print("n");
-               System.out.print("oise");
-           }
+           if (x > 2){
+               System.out.print("an");
+               System.out.print(" oyster");
+           }           
            System.out.println("");
            x = x + 1;
         }
